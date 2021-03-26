@@ -1,8 +1,8 @@
 let modInfo = {
-	name: "The Number Tree",
+	name: "The tree Tree",
 	id: "AAAAAA",
 	author: "3^3=27",
-	pointsName: "Number",
+	pointsName: "Points",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new Decimal (10), // Used for hard resets and new players
@@ -12,8 +12,8 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "-1.0",
+	name: "Code",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
@@ -55,7 +55,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("1000000000"))
 }
 
 
